@@ -205,8 +205,8 @@ footer p{
 
     }
     .texto{
-        width: 300px;
-        height: 240px; /*muito texto aumenta, pouco texto diminui*/
+        width: 500px;
+        height: 200px; /*muito texto aumenta, pouco texto diminui*/
 
     }
 
@@ -215,7 +215,58 @@ footer p{
 
     }
 
+    .subtitulo {
+        font-size: 30px;
+    }
 
+    .item{
+        width: 300px;
+    }
 
+    .video{
+        width: 250;
+    }
+/*Fim resolução 700px*/
 }
+
+/*Resolução para Smartphone*/
+
+@media (max-width: 500px){
+
+    .imagem img{
+        width: 100px;
+        margin-top: 30px;
+    }
+
+    .nome {
+        font-size: 25px;
+    }
+
+    .texto {
+        margin-top: 50px;
+        width: 200px;
+        height: 620px;
+        padding: 30px;
+    
+    }
+    .sobre-mim {
+        font-size: 15;
+    }
+
+    .subtitulo{
+        font-size: 25px;
+    }
+
+    .item{
+        width: 260px;
+        height: 40px;
+        margin-top: 15px;
+    }
+
+    .video{
+        width: 250px;
+        height: 160px;
+    }
+  
+    }
 
