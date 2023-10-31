@@ -6,6 +6,8 @@ const buffet = document.getElementById('buffet');
 
 // três constantes para referenciar os ID' do Iframes
 const videoAlbum = document.querySelector('#videoAlbum');
+const videoCasamentos = document.querySelector('#videoCasamentos');
+const videoBuffet = document.querySelector('#videoBuffet');
 
 // Evento do Click
 album.addEventListener ('click', () => {
