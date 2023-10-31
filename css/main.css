@@ -181,7 +181,7 @@ line-height: 35px;
     display: none;
 }
 
-.video:active {
+.video.active {
     display: block;
 }
 
